@@ -7,6 +7,9 @@ Creating this repo because I always forget how to generate credentials.
 	git clone https://github.com/shadyabhi/generate_symantec_vip
 	sudo docker build -t generate_symantec_vip .
 
+	# Make sure you've tool to generate tokens
+	brew install oath-toolkit
+
 ## How to use?
 
 NOTE: These credentials are not in use.

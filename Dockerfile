@@ -2,7 +2,7 @@ FROM phusion/baseimage
 
 RUN apt-get update
 
-RUN apt-get install -y python-pip && python -m pip install --upgrade pip setuptools && python -m pip install python-vipaccess;
+RUN apt-get install -y python-pip && python -m pip install --upgrade pip setuptools && python -m pip install python-vipaccess qrcode Pillow;
 
 ADD generate.py /opt/generate.py
 
